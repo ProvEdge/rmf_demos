@@ -1,4 +1,6 @@
-const API_SERVER_ADD = "http://" + "18.212.181.9" + ":58111";
+//const API_SERVER_ADD = "http://" + "18.212.181.9" + ":58111";
+const API_SERVER_ADD = "http://" + location.hostname + ":8080"
+
 const GUI_SERVER_ADD = "http://" + location.host;
 
 //API endpoints
