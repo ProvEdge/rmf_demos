@@ -156,6 +156,9 @@ const LoopRequestForm = (props: LoopFormProps): React.ReactElement => {
   return (
     <Box className={classes.form} role="loop-request-form">
       <div className={classes.divForm}>
+        <span className="card-label fw-bolder fs-4 mb-1">
+          Schedule a Loop Request
+        </span>
         <div className="mb-4">
           <label className="form-label fw-bold">Select start location</label>
 

@@ -84,7 +84,7 @@ const RequestForm = (): React.ReactElement => {
       <div className={classes.divForm}>
         {/* <Typography variant="h6">Submit a Task</Typography>
          */}
-        <span className=" fw-bolder fs-4 mb-1">Submit Task</span>
+        {/* <span className=" fw-bolder fs-4 mb-1">Submit Task</span> */}
 
         <div className="mb-4">
           <label className="form-label fw-bold">Task</label>
@@ -158,7 +158,7 @@ const RequestForm = (): React.ReactElement => {
           helperText={timeError}
         /> */}
       </div>
-      <div className={classes.divForm}>
+      <div className={`mb-2 ${classes.divForm}`}>
         <label className="form-label fw-bold">
           Choose a priority (Default: 0)
         </label>
