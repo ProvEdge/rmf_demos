@@ -49,7 +49,9 @@ const TasksContainer = (): React.ReactElement => {
         {taskStates.length > 0 ? (
           allTasks
         ) : (
-          <div className="pa-8">Not founded</div>
+          <div className="pa-8 mb-2">
+            <span className="text-muted fw-bold fs-7">Not founded</span>
+          </div>
         )}
       </Grid>
     </div>

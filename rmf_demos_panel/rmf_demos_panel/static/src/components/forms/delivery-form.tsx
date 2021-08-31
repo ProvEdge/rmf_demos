@@ -180,14 +180,9 @@ const DeliveryForm = (props: DeliveryFormProps): React.ReactElement => {
         /> */}
       </div>
       <div className={classes.buttonContainer}>
-        <Button
-          variant="contained"
-          color="primary"
-          onClick={handleSubmit}
-          className={classes.button}
-        >
-          Submit Request
-        </Button>
+        <span className="btn btn-primary form-control" onClick={handleSubmit}>
+          Sumbit Request
+        </span>
         {openSnackbar && (
           <NotificationSnackbar
             type={messageType}
